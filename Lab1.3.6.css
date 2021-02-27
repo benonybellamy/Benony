@@ -1,0 +1,43 @@
+.header {
+    padding: 15px;
+    background-color: rgb(81, 219, 88);
+    border-radius: 12px;
+    background: rgb(82, 216, 82); background-repeat: no-repeat;
+  }
+  .header-item {
+    display: inline-block;
+    padding: 15px;
+    border: 15px;
+    background-color: greenyellow;
+    color: black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-right: 20px;
+    display: inline-block;
+  }
+  .sidebar {
+    width: 400px;
+    padding: 20px;
+    border: 100px;
+    border-radius: 12px;
+    display: inline-block;
+    margin-top: 40px;
+    border: 15px;
+    background: brown;
+    
+  }
+  .subscription-button {
+    width: 45%;
+    color: white;
+    float: left;
+    background-color: orangered;
+    border: solid 1px brown;
+    margin-right: 5%;
+    padding: 10px;
+    text-align: center;
+    box-sizing: border-box;
+    
+  }
+  .clear {
+    clear: both;
+  }
+  

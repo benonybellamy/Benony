@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    padding: 50px;
+    margin: unset;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: italic;
+}
+
+
+.content{
+    background: linear-gradient(to right,
+    #eeeeee 25%,
+    #cccccc 25%,
+
+    #cccccc 50%,
+    #eeeeee 50%,
+
+    #eeeeee 75%,
+    #cccccc 75%,
+
+    #cccccc 100%);  
+}
+
+.content .in-cont{
+    height: 100%;
+    float: left;
+    width: 25%;
+    padding: 30px 20px;
+}
+
+
+
+ .content:after {
+    display: block;
+    content: "";
+    clear: both;
+} 
+
+
