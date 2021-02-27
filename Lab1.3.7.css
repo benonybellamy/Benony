@@ -11,7 +11,7 @@ body{
 }
 
 
-.content{
+.My_boxes{
     background: linear-gradient(to right,
     #eeeeee 25%,
     #cccccc 25%,
@@ -25,7 +25,7 @@ body{
     #cccccc 100%);  
 }
 
-.content .in-cont{
+.My_boxes .box{
     height: 100%;
     float: left;
     width: 25%;
@@ -34,7 +34,7 @@ body{
 
 
 
- .content:after {
+ .My_boxes:after {
     display: block;
     content: "";
     clear: both;
