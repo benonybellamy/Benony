@@ -1,16 +1,16 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+
+
 body{
     padding: 50px;
     margin: unset;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-style: italic;
 }
-
-
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 .My_boxes{
     background: linear-gradient(to right,
     #eeeeee 25%,
