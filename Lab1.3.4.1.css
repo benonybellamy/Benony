@@ -1,0 +1,41 @@
+header, footer {
+    background-color: orange;
+    background: url('http://pattern4site.ru/images/fabric/_rebig/12-tekstura-tkani-iz-lna.jpg') no-repeat center center / cover ;
+        padding: 15px;
+    }
+    header {
+    text-align: center;
+    }
+    footer {
+        text-align: center;
+    }
+    header button, footer button { 
+        color: white;
+    background-color: rgb(224, 145, 116);
+        padding: 15px;
+    }
+    
+    .content {
+        border-width: 1px;
+        border-style: solid;
+        border-color: cornflowerblue;
+        margin: 20px;
+        padding: 10px;
+    }
+    .section {
+        margin: 5px;
+    background-color: rgb(236, 220, 208);
+    background: url('https://assets-eu-01.kc-usercontent.com/bcd02f72-b50c-0179-8b4b-5e44f5340bd4/7a0b8947-d971-444f-9287-e11fd0d2c421/autumn-poems-header-min.jpg') no-repeat center center / cover ;
+    color: white;
+    }
+    .content button{
+     background-color: chocolate;
+    color: white;
+        padding: 5px;
+    }
+    .content > button {
+    background-color: coral;
+      color: beige;
+    }
+    
+

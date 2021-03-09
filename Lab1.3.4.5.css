@@ -1,0 +1,43 @@
+h1 {
+    padding-top: 10px;
+    border: solid 5px red; 
+
+
+}
+.first {
+    font-size: 30px;
+}
+body {
+    background-color: rgb(110, 110, 43);
+    background-image: url(world-map.png);
+    background-image: url(world-map.png);
+    background-position: 50% 50%;
+
+}
+#head {
+    text-align: center;
+}
+h2 {
+    text-align: center;
+    letter-spacing: 2px;
+    font-style: italic;
+    font-family: cursive;
+   font-style: italic;
+font-family: cursive;
+    text-decoration:  underline
+}
+a {
+    color: blue;
+}
+
+li {
+    margin-bottom: 30px; 
+    font-size: 30px;
+    list-style-type: circle;
+}
+a:visited {
+    color: blueviolet;
+}
+a:active{
+    color: red;
+}
