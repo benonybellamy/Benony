@@ -1,0 +1,30 @@
+body {
+    font-family: cursive;
+    font-size: 25px;
+}
+
+div{
+    width: 200px;
+    height: 200px;
+    background-color: yellowgreen;
+    position: relative;
+
+    animation-name: changement_de_couleur;
+    animation-duration: 5s;
+    animation-timing-function: ease;
+    animation-delay: 4s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes changement_de_couleur{
+    0%{ background-color: yellowgreen; top: 0px; left: 0px; }
+    25%{  background-color: blue; top: 0px; left: 200px; }
+    50%{background-color: red; top: 200px; left: 200px; }
+    75% {background-color: blueviolet; top: 200px; left: 0px; }
+    100% {background-color: yellowgreen; top: 0px; left: 0px; }
+}
+
+
+
+

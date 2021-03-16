@@ -1,64 +1,85 @@
+*{
+    margin: 0px;
+ }
+
 body {
-  margin: 0;
-  padding-top: 75px;
+    
+    padding-top: 80px;
+    box-sizing: content-box;
 }
+
+button:hover {
+    cursor: pointer;
+    background-color: rgba(80, 209, 20, 0.5);
+    transition: 500ms;
+} 
+
 .header {
-  position: fixed;
-  width: 100%;
-  margin-top: -75px;
-  background-color: #f7fdfe;
-  padding: 20px;
+    width: auto;
+    height: auto;
+    background-color: greenyellow;
+    margin-top: -80px;
+    padding: 20px 0px 15px 0px;
 }
-.header-item {
-  display: inline-block;
-  margin: 0 10px;
-  background-color: darkseagreen;
-  border-radius: 3px;
-  border: solid 1px darkgreen;
-  padding: 10px;
-  color: white;
-  font-family: sans-serif;
-  text-transform: uppercase;
+.header-features {
+    height: 45px;
+    background-color: green;
+    border-radius: 15px;
+    border: 5px double black;
+    margin-left: 20px;
+    color: white;
+    text-transform: unset;
+    letter-spacing: 3px;
+    font-family: Georgia, Times, 'Times New Roman', serif;
+    font-weight: bolder;
+    font-size: 15px;
+    text-decoration: none;
 }
-.content-area {
-  display: block;
-  float: left;
-  width: 70%;
-}
-.left-nav {
-  display: block;
-  float: left;
-  box-sizing: border-box;
-  margin: 10px;
-  width: 30%;
-  padding: 30px;
-  font-family: sans-serif;
-  border: 1px solid #0ebfdd;
-}
- 
-.left-nav > .button {
-  display: block;
-  width: 100%;
-  background-color: darkseagreen;
-  border-radius: 3px;
-  border: solid 1px darkgreen;
-  padding: 10px;
-  margin: 10px 0;
-  color: white;
-  font-family: sans-serif;
-  text-transform: uppercase;
-  outline: none;
-}
-.main-area {
-  display: block;
-  box-sizing: border-box;
-  float: left;
-  width: 60%;
-  padding: 30px;
-  margin: 10px;
-  color: darkgray;
-  font-family: sans-serif;
-  border: 1px solid #0ebfdd;
+.main-options {
+    display: inline-flex;
+    
 }
 
+.options-column {
+        border: double;
+        border-radius: 15px;
+        height:auto;
+        width: 25%;
+        margin: 15px;
+        padding: 20px;
+        background-color: blanchedalmond;
+}
+.option {
+    
+        border-radius: 15px;
+        border: 5px double black;
+        display: block;
+        letter-spacing: 3px;
+        height: 45px;
+        width: 90%;
+        background-color: green;
+        color: white;
+        margin-top: 15px;
+        margin-bottom: 15px;
+        font-family: Georgia, Times, 'Times New Roman', serif;
+        font-weight: bolder;
+        font-size: 20px;
+        
+}
 
+.description {
+        border: double;
+        height: auto;
+        width: 70%;
+        background-color: blanchedalmond;
+        border: 5px groove ;
+        border-radius: 15px;
+        margin: 15px;
+        padding: 25px;
+        font-size: 15px;
+        color: black;
+        font-family: cursive;
+        font-weight: lighter;
+        font-style: italic;
+    }
+   
