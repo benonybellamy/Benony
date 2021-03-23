@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  body {
+    width: 100%;
+    height: 100%;
+  }
+  div {
+    width: 600px;
+    margin: 0 auto;
+    background-color: #ff7f50;
+  }
+  div h1 {
+    font-size: 50px;
+  }
+  div p {
+    font-size: 40px;
+  }
+  div p.maclass {
+    font-size: 23.33333333px;
+    color: #0000ff;
+  }
+  

@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  body {
+    width: 100%;
+    height: 100%;
+  }
+  #messages {
+    width: 600px;
+    margin: 50px auto;
+  }
+  #messages h1 {
+    font-size: 25px;
+    height: 50px;
+  }
+  #messages p.green {
+    margin-right: 10px;
+    font-size: 20px;
+    display: inline;
+    padding: 2px 5px;
+    color: black;
+    background: rgba(0, 128, 0, 0.5);
+    -moz-box-shadow: 2px 2px 2px #004000;
+    -webkit-box-shadow: 2px 2px 2px #004000;
+    -o-box-shadow: 2px 2px 2px #004000;
+    box-shadow: 2px 2px 2px #004000;
+  }
+  #messages p.blue {
+    margin-right: 10px;
+    font-size: 20px;
+    display: inline;
+    padding: 2px 5px;
+    color: black;
+    background: rgba(0, 0, 255, 0.5);
+    -moz-box-shadow: 2px 2px 2px #0000ff;
+    -webkit-box-shadow: 2px 2px 2px #0000ff;
+    -o-box-shadow: 2px 2px 2px #0000ff;
+    box-shadow: 2px 2px 2px #0000ff;
+  }
+  #messages p.red {
+    margin-right: 10px;
+    font-size: 20px;
+    display: inline;
+    padding: 2px 5px;
+    color: black;
+    background: rgba(255, 0, 0, 0.5);
+    -moz-box-shadow: 8px 5px 10px #ff0000;
+    -webkit-box-shadow: 8px 5px 10px #ff0000;
+    -o-box-shadow: 8px 5px 10px #ff0000;
+    box-shadow: 8px 5px 10px #ff0000;
+  }
+  #messages p.yellow {
+    margin-right: 10px;
+    font-size: 20px;
+    display: inline;
+    padding: 2px 5px;
+    color: black;
+    background: rgba(255, 255, 0, 0.5);
+    -moz-box-shadow: 4px 2px 5px #ffff00;
+    -webkit-box-shadow: 4px 2px 5px #ffff00;
+    -o-box-shadow: 4px 2px 5px #ffff00;
+    box-shadow: 4px 2px 5px #ffff00;
+  }
+  

@@ -1,0 +1,24 @@
+@import "reset.css";
+.margin {
+  margin: 50px;
+}
+#messages {
+  width: 600px;
+  margin: 50px auto;
+}
+#messages h1 {
+  font-size: 25px;
+  height: 50px;
+}
+#messages p.green {
+  margin-right: 10px;
+  font-size: 20px;
+  display: inline;
+  padding: 2px 5px;
+  color: black;
+  background: rgba(0, 128, 0, 0.5);
+  -moz-box-shadow: 2px 2px 2px #004000;
+  -webkit-box-shadow: 2px 2px 2px #004000;
+  -o-box-shadow: 2px 2px 2px #004000;
+  box-shadow: 2px 2px 2px #004000;
+}

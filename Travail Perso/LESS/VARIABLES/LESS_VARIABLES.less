@@ -1,0 +1,32 @@
+@beno: 1px;
+@lily: 21px;
+@ambofate: 70px;
+@babyboss: 62px;
+@lacouleur: #0000ff * 2 ;
+@plan: #ff7f50 / 1 ;
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 100%;
+    height: 100%;
+}
+
+
+div{
+    width: 600px;
+    margin: 0 auto;
+    background-color: @plan;
+    h1{
+        font-size: @beno - @lily + @ambofate;
+    }
+    p{
+        font-size: @babyboss - @beno - @lily;
+    }
+    p.maclass{
+        font-size: @ambofate * @beno / 3 ;
+        color: @lacouleur;
+    }
+}

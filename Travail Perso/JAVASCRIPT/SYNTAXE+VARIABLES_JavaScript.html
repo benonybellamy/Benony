@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+       <meta charset="UTF-8">
+       <title>Javascript Syntaxe</title>
+</head>
+<body>
+       <h1>SYNTAXE DES VARIABLES</h1>
+
+       <script>
+              
+            var x = 25 ; // Ici il s'agit d'un "number" (un NOMBRE)
+            var xprime = '25' // Ici il s'agit d'un NOMBRE mais comme il est ecrit entre GUILLEMETS, alors c'est un "STRING"
+
+            var x = -75; // Ici il s'agit d'un "number" (un NOMBRE)
+            var x = 3.14; // Ici il s'agit d'un "number" (un NOMBRE)
+
+            var prenom = 'Benony'; // Ici il s'agit d'un "string" (car il s'agit d'un TEXTE,et tout TEXTE est TOUJOURS entre GUILLEMETS: soit '' ou alors "")
+            var nom = 'Ella'; // Ici il s'agit d'un "string"
+            var sexe = 'Je suis un homme'; // Ici il s'agit d'un "string"
+
+            var adresse = 'Kalinova "65"'; // Ici il s'agit d'un "string" (Mais comme on doit mettre 65 entre GUILLEMETS, alors on utilise les APPOSTROPHES pour encadrer notre variable afin d'eviter des eventuelles ERREURS)
+            var adresse2 = "Kalinova \"65\""; // Ici il s'agit d'un "string" (Si nous voulons ABSOLUMENT utiliser les GUILLEMETS pour 65 et pour ENCADRER egalement notre script, alors dans ce cas on utilise des "\\" AVANT et APRES 65 )
+            
+
+            var ville = "J'habite a Dnipro"; // Ici il s'agit d'un "string" (meme EXPLICATION qu'avec: 'Kalinova "65"')
+            var ville2 = "J\'habite a Dnipro"; // Ici il s'agit d'un "string" (meme EXPLICATION qu'avec: "Kalinova \"65\"")
+
+            // BOOLEAN (soit "true", soit "false")
+
+            var a = true, b = false;
+            var c = "true";
+
+            // NULL (La valeur n'est PAS RECONNUE)
+
+            var n = null;
+
+
+           // UNDEFINED (signifie qu/on n'a pas attribue de VALEUR a cette VARIABLE)
+
+           var u = undefined;
+
+
+           // NAN (Not A Number) on l'utilise pour indiquer que la variable n'est pas un nombre.
+
+           var nn = NaN;
+
+
+
+
+
+
+
+
+           //NB: Plus on evolue dans le projet, si on souhaite REUTILISER les memes VARIABLES pour de NOUVELLES VALEURS, alors ces NOUVELLES VALEURS viendront ECRASER les anciennes VALEURS que contenait cette VARIABLE.
+
+
+           var x = "quatre"; // Ici la VARIABLE 'x' n'aura plus pour VALEUR '25' (ancienne valeur), mais plutot 'quatre' (nouvelle valeur).
+
+
+
+
+
+
+
+           // 'TYPEOF' On utilise la fonction 'TYPEOF' pour TESTER (verifier) le type de VALEUR que contient une VARIABLE.
+
+
+           alert ("Variable x : " + typeof(x) +   // la fonction "ALERT" permet juste d'afficher dans le net TOUT ce qui est contenu ENTRE PARENTHESES.
+                  "\nVariable y : "  + typeof(y) +
+                  "\nVariable a : "  + typeof(a) +
+                  "\nVariable n : "  + typeof(n) +
+                  "\nVariable u : "  + typeof(u) +
+                  "\nVariable nn : "  + typeof(nn)); // On utilise "\n" juste pour que dans le NAVIGATEUR cela puisse CREER des RETOURS A LA LIGNE pour une MEILLEURE visibilite. C'est TOUT!
+
+
+       </script>
+
+</body>
+</html>

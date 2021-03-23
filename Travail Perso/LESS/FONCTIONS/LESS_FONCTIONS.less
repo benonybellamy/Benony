@@ -1,0 +1,61 @@
+// variables
+@beno: 20px;
+@colorbckgrd: black;
+
+// Mixins
+.boutonForm(){
+    margin-right: 10px;
+    font-size: @beno;
+    display: inline;
+    padding: 2px 5px;
+    color: black;
+}
+
+.boutonColor(@color: black, @horizshadow: 2px, @vertishadow: 2px, @thickshadow: 2px) {
+    background: fadeout(@color, 50%); 
+    -moz-box-shadow: @horizshadow @vertishadow @thickshadow softlight(@color, @colorbckgrd);
+    -webkit-box-shadow: @horizshadow @vertishadow @thickshadow softlight(@color, @colorbckgrd);
+    -o-box-shadow: @horizshadow @vertishadow @thickshadow softlight(@color, @colorbckgrd);
+    box-shadow: @horizshadow @vertishadow @thickshadow softlight(@color, @colorbckgrd);
+    
+}
+
+// css
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 100%;
+    height: 100%;
+}
+
+
+#messages{
+    width: 600px;
+    margin: 50px auto;
+    
+    h1{
+       font-size: @beno + 5px;
+       height: 50px;
+    }
+    p.green{
+        .boutonForm;
+        .boutonColor(green);
+    }
+    p.blue{
+        .boutonForm;
+        .boutonColor(blue);
+    }
+
+    p.red{
+        .boutonForm;
+        .boutonColor(red , 8px, 5px, 10px);
+    }
+
+    p.yellow{
+        .boutonForm;
+        .boutonColor(yellow, 4px, 2px, 5px);
+    }
+
+}
