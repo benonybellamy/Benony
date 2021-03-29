@@ -1,0 +1,56 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.slider{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+}
+
+.item1,
+.item2,
+.item3,
+.item4,
+.item5{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    border: 2px solid black;
+    flex-basis: 20%;
+    transition: all 0.2s;
+}
+.item1:hover,
+.item2:hover,
+.item3:hover,
+.item4:hover,
+.item5:hover{
+    flex-basis: 50%;
+}
+
+.item1{
+    background: url(Berlin.jpg) no-repeat center center;
+    background-size: cover;
+}
+.item2{
+    background: url(../img/2.png) no-repeat center center;
+    background-size: cover;
+}
+.item3{
+    background: url(../img/3.jpg) no-repeat center center;
+    background-size: cover;
+}
+.item4{
+    background: url(../img/4.png) no-repeat center center;
+    background-size: cover;
+}
+.item5{
+    background: url(../img/5.png) no-repeat center center;
+    background-size: cover;
+}
