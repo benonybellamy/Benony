@@ -208,35 +208,126 @@
 
 
 
+ // let Name = prompt("Who's there?", '');
 
+// if (Name === 'ADMIN') {
 
+// let myPass = prompt('Password?', '');
 
- let Name = prompt("Who's there?", '');
+// if (myPass === 'THEMASTER') {
+// alert( 'Welcome!' );
+ // } else if (myPass === '') {
+// alert( 'Canceled' );
+ // } else {
+ // alert( 'Wrong password' );
+  // }
 
-if (Name === 'ADMIN') {
-
-let myPass = prompt('Password?', '');
-
-if (myPass === 'THEMASTER') {
-alert( 'Welcome!' );
- } else if (myPass === '') {
-alert( 'Canceled' );
- } else {
- alert( 'Wrong password' );
-  }
-
- } else if (Name === '') {
- alert( 'Canceled' );
- } else {
-alert( "I don't know you" );
- }
-
-
-
-
+ // } else if (Name === '') {
+ // alert( 'Canceled' );
+ // } else {
+// alert( "I don't know you" );
+ // }
 
 
 
 
 // Nullish coalescing operator '??' 
 // NO HOMEWORK
+
+
+
+
+// LOOPS
+
+
+// Exercise 1: 
+
+//let i = 3;
+
+//while (i) {
+  //alert( i-- ); // ---> 1, 2 and 3. Answer: Last loop value: 3.
+//}
+
+
+// Exercise 2: Which values does the while loop show?
+
+// Variant 1:
+
+// let i = 0;
+// while (++i < 5) alert( i ); // After INCREMENTATION ---> Answers: 1, 2, 3 and 4.
+
+
+// Variant 3: 
+
+// let i = 0;
+// while (i++ < 5) alert( i ); // Answers: 1, 2, 3 and 4.
+
+
+
+
+// Exercise 4: Which values get shown by the "for" loop?
+
+
+// The prefix form:
+
+// for (let i = 0; i < 5; i++) alert( i ); // After INCREMENTATION ---Answers: 0, 1, 2, 3 and 4.
+
+// The postfix form:
+
+// for (let i = 0; i < 5; ++i) alert( i ); // After INCREMENTATION ---Answers: 0, 1, 2, 3 and 4.
+
+
+
+// Exercise 5: Output even numbers in the loop
+
+//for (let i = 2; i < 11; i++) {
+   // if (i % 2 == 0) {
+     // alert( i );
+    //}
+ // }
+
+
+
+ // Exercise 6: Replace "for" with "while"
+
+
+ // for (let i = 0; i < 3; i++) {
+    // alert( `number ${i}!` );
+  // }
+
+  // Becomes: 
+
+  // let i = 0;
+// while (i < 3) {
+  // alert( `number ${i}!` );
+  // i++;
+// }
+
+
+
+// Exercise 7: Repeat until the input is correct
+
+
+// let numberX;
+
+// do {
+    // // numberX = prompt("Enter a number greater than 100?", "");
+// } while (numberX <= 100 && numberX);
+
+
+
+// Exercise 6: Output prime numbers
+
+
+
+let n = 10;
+
+label:
+for (let i = 2; i < 10; i++) { 
+
+  for (let j = 2; j < i; j++) {
+    if (i % j == 0) continue label; 
+  }
+
+  alert( i ); 
+}
